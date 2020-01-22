@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Screen G R I D S</title>
+
+         <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<title>Bootstrap style sheets & Jquery</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<!------------------------------------------------------------------------------------------->
+<!--               Version 4.4.1 needed for the latest features of Navigational bars       -->
+<!--                                                          Piruz Alemi Jan 20th, 2020   -->
+<!------------------------------------------------------------------------------------------->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
+<head>
+    <style>
+        #C1 {
+          text-align: center;
+          color: #0d1fc2;
+        }
+        #R1 {
+          text-align: right;
+          color: blue;
+        }
+
+        #RGB {
+          text-align: center;
+          color: rgb(199, 12, 168);
+        }
+
+        #BG {
+          background-color: #ffffee;
+        }
+    </style>
+</head>
+
+<body id=BG>
+  
+    <div class="container">
+        <!---------------------------------------------------------------------------->
+        <!--              N A V I G A T I O N             B A R                     -->
+        <!---------------------------------------------------------------------------->
+        <!-- Use any of the .bg-color classes to change the background color of the navbar
+             (.bg-primary, .bg-success, .bg-info, .bg-warning, .bg-danger, 
+             .bg-secondary, .bg-dark and .bg-light) -->
+
+            <!-- <nav class="nav justify-content-center bg-warning fixed-top"> -->
+                <!-- Brand/logo -->
+                <!-- <a class="navbar-brand" href="../poster.jpg">Logo</a> -->
+
+              <ul class="nav justify-content-center bg-warning fixed-top">
+
+                      <!-- <a class="navbar-brand" href="#">Logo</a> -->
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                               <a class="nav-link" href="Dashboard.html">DashBoard</a>
+                        </li>
+
+                        <li class="nav-item">
+                                <a class="nav-link" href="selectScreens.html">selectScreens</a>
+                        </li>
+
+                        <li class="nav-item">
+                                <a class="nav-link" href="screenGrids.html">screenGrids</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="Carousel.html">Carousel</a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link" href="OpenLetter.html">OpenLetter</a>
+                        </li>
+
+                        <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                              </li>
+              </ul>
+           <!-- </nav>   -->
+        <!---------------------------------------------------------------------------->
+        <br> </br>
+        <br> </br>
+
+        <h1 id=C1>People of Color: International Cultural Exchange</h1>
+        <br> </br>
+       
+  <h3 id=C1>A Carousel of Videos & Films</h3>
+
+  <br> </br>>
+
+<<!--Carousel Wrapper-->
+<div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+          <li data-target="#video-carousel-example2" data-slide-to="0" class="active"></li>
+          <li data-target="#video-carousel-example2" data-slide-to="1"></li>
+          <li data-target="#video-carousel-example2" data-slide-to="2"></li>
+        </ol>
+        <!--/.Indicators-->
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+          <!-- First slide -->
+          <div class="carousel-item active">
+            <!--Mask color-->
+            <div class="view">
+              <!--Video source-->
+              <video class="video-fluid" autoplay loop muted>
+                <source src="IMG_2605.mp4" type="video/mp4" />
+              </video>
+              <div class="mask rgba-indigo-light"></div>
+            </div>
+      
+            <!--Caption-->
+            <div class="carousel-caption">
+              <div class="animated fadeInDown">
+                <h3 class="h3-responsive">Light mask</h3>
+              </div>
+            </div>
+            <!--Caption-->
+          </div>
+          <!-- /.First slide -->
+      
+          <!-- Second slide -->
+          <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+              <!--Video source-->
+              <video class="video-fluid" autoplay loop muted>
+                <source src="https://mdbootstrap.com/img/video/animation-intro.mp4" type="video/mp4" />
+              </video>
+              <div class="mask rgba-purple-slight"></div>
+            </div>
+      
+            <!--Caption-->
+            <div class="carousel-caption">
+              <div class="animated fadeInDown">
+                <h3 class="h3-responsive">Super light mask</h3>
+              </div>
+            </div>
+            <!--Caption-->
+          </div>
+          <!-- /.Second slide -->
+      
+          <!-- Third slide -->
+          <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+              <!--Video source-->
+              <video class="video-fluid" autoplay loop muted>
+                <source src="https://mdbootstrap.com/img/video/cube.mp4" type="video/mp4" />
+              </video>
+              <div class="mask rgba-black-strong"></div>
+            </div>
+      
+            <!--Caption-->
+            <div class="carousel-caption">
+              <div class="animated fadeInDown">
+                <h3 class="h3-responsive">Strong mask</h3>
+              </div>
+            </div>
+            <!--Caption-->
+          </div>
+          <!-- /.Third slide -->
+        </div>
+        <!--/.Slides-->
+        <!--Controls-->
+        <a class="carousel-control-prev" href="#video-carousel-example2" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#video-carousel-example2" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        <!--/.Controls-->
+      </div>
+      <!--Carousel Wrapper-->
+      
+
+  <br> </br>
+  <br> </br>
+  <br> </br>
+  <br> </br>
+  <br> </br>
+  <br> </br>
+  <br> </br>
+  <br> </br>
+  <br> </br>
+  <br> </br>
+  <br> </br>
+  <br> </br>
+  <br> </br>
+  <br> </br>
+  <br> </br>
+
+</div>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+ body {
+        background-color: rgb(20, 104, 133);
+        }
+        
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 25%;
+          }
+
+        
+          .map {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 75%;
+          }
+
+          .map100 {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+          }
+
+         
+       .left {
+            text-align: center;
+            border: 3px solid green;
+          }
+      
+          
+
+        .jumbotron img {
+            padding-right: 8px;
+            padding-bottom: 5px;
+        }
+
+
+        h1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 4rem;
+           
+        }
+
+        h2{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 2rem;
+            color: rgb(81, 88, 15);
+            font-weight: 200;
+        }
+
+        table{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 2rem;
+            color: rgb(7, 87, 31);
+            font-weight: 200;
+        }
+
+      
+
+
+        <div class="socialgraph-gadget d-flex justify-content-between">
+            <!-- awesome content -->
+        </div>

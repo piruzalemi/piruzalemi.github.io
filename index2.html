@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Piruz Alemi Screening Sight</title>
+
+         <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<title>Bootstrap style sheets & Jquery</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<!------------------------------------------------------------------------------------------->
+<!--               Version 4.4.1 needed for the latest features of Navigational bars       -->
+<!--                                                          Piruz Alemi Jan 20th, 2020   -->
+<!------------------------------------------------------------------------------------------->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
+<head>
+    <style>
+        #C1 {
+          text-align: center;
+          color: #0d1fc2;
+        }
+        #R1 {
+          text-align: right;
+          color: blue;
+        }
+
+        #RGB {
+          text-align: center;
+          color: rgb(199, 12, 168);
+        }
+
+        #BG {
+          background-color: #ffffee;
+        }
+    </style>
+</head>
+
+<body id=BG>
+  
+    <div class="container">
+        <!---------------------------------------------------------------------------->
+        <!--              N A V I G A T I O N             B A R                     -->
+        <!---------------------------------------------------------------------------->
+        <!-- Use any of the .bg-color classes to change the background color of the navbar
+             (.bg-primary, .bg-success, .bg-info, .bg-warning, .bg-danger, 
+             .bg-secondary, .bg-dark and .bg-light) -->
+
+            <nav class="nav justify-content-center bg-warning fixed-top">
+                <!-- Brand/logo -->
+                <!-- <a class="navbar-brand" href="../poster.jpg">Logo</a> -->
+
+              <ul class="nav justify-content-center bg-warning fixed-top">
+
+                      <a class="navbar-brand" href="#">Logo</a>
+
+                        <li class="nav-item">
+                               <a class="nav-link" href="Dashboard.html">DashBoard</a>
+                        </li>
+
+                        <li class="nav-item">
+                                <a class="nav-link" href="#">SelectScreening</a>
+                        </li>
+
+                        <li class="nav-item">
+                                <a class="nav-link" href="#">ScreenGrids</a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link disabled" href="#">Contact/WhoWeAre</a>
+                        </li>
+              </ul>
+            </nav>
+        <!---------------------------------------------------------------------------->
+        <br> </br>
+        <br> </br>
+
+        <h1 id=C1>People of Color: International Cultural Exchange</h1>
+        <br> </br>
+        <p>This site is inside a .container class. The .container class provides a responsive fixed width container.</p> 
+        <p>Resize the browser window to see that its width (max-width) will change at different breakpoints!</p>
+        <p>In addition check the Navigation bar like Dashboard, Streaming Films, Blogs and more!</p>
+
+  <h3 id=C1>Piruz Alemi</h3>
+
+  <img src="https://i.vimeocdn.com/portrait/3134773_600x600.webp"  alt="Piruz Alemi" class=center > 
+
+  <p id=RGB>Welcome to Piruz Alemi's Data Scientist Web Page.</p>
+  <p id=C1>This sight captures some of the latest proto type programs designed by Piruz Alemi such as:</p>
+  <p id =C1>For a given Director's Country of origin, Film Title or Name, the user can select and stream her/his film</p>
+
+  <h2>Alemi Press Release</h2>
+  <p><a href="https://pocinternational.wixsite.com/peopleofcolor/screening_press">Visit Piruz Alemi Press release</a></p>
+  
+  
+  <ul>
+    <li><strong>Email:</strong> <a href="#">alemi@securitymarkets.org</a></li>
+    <li><strong>Github:</strong> <a href="https://github.com/piruzalemi">github.com/piruzalemi</a></li>
+    <li><strong>Twitter:</strong> <a href="#">coming soon</a></li>
+  </ul>
+
+  <br> </br>
+  <br> </br>
+  <br> </br>
+  <br> </br>
+  <br> </br>
+
+  <p> Here I created 3 divisions, with Class ="col-sm-2", note the col-sm=3X2=6, where as col-sm-4=3X4=12</p>
+  <div class="row">
+    <div class="col-sm-2">
+      <h3>Alemi Column 1</h3>
+      <p> I have some information in column 1 that i will add soon!</p>
+      <p> Stay tuned...</p>
+    </div>
+    <div class="col-sm-2">
+      <h3>Alemi Column 2</h3>
+      <p> hold! New information uinder construction!!!..</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-2">
+      <h3>Alemi Column 3</h3>        
+      <p>I have some information in column 3 that i will add soon!...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+  </div>
+
+  <br> </br>
+  <br> </br>
+  <br> </br>
+  <br> </br>
+  <br> </br>
+
+  <h2>POC Table of Filmmakers</h2>
+  <p> Here applying Bootstrap, I added .table class which adds basic styling (light padding with only horizontal dividers) to my table:</p>            
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Directors Name</th>
+        <th>Country of Origin</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Frank Hooker</td>
+        <td>USA</td>
+        <td>frankrhookerjr@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Piruz Alemi</td>
+        <td>New York</td>
+        <td>alemi@securitymarkets.org</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+</div>
+</body>
+
+</html>
